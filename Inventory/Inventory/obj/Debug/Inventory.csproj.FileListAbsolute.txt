@@ -1,0 +1,7 @@
+D:\CordingC#\LikeLion\Inventory\Inventory\bin\Debug\Inventory.exe.config
+D:\CordingC#\LikeLion\Inventory\Inventory\bin\Debug\Inventory.exe
+D:\CordingC#\LikeLion\Inventory\Inventory\bin\Debug\Inventory.pdb
+D:\CordingC#\LikeLion\Inventory\Inventory\obj\Debug\Inventory.csproj.AssemblyReference.cache
+D:\CordingC#\LikeLion\Inventory\Inventory\obj\Debug\Inventory.csproj.CoreCompileInputs.cache
+D:\CordingC#\LikeLion\Inventory\Inventory\obj\Debug\Inventory.exe
+D:\CordingC#\LikeLion\Inventory\Inventory\obj\Debug\Inventory.pdb
