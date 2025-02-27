@@ -1,0 +1,7 @@
+D:\CordingC#\ConsoleSample\ConsoleSample\bin\Debug\ConsoleSample.exe.config
+D:\CordingC#\ConsoleSample\ConsoleSample\bin\Debug\ConsoleSample.exe
+D:\CordingC#\ConsoleSample\ConsoleSample\bin\Debug\ConsoleSample.pdb
+D:\CordingC#\ConsoleSample\ConsoleSample\obj\Debug\ConsoleSample.csproj.AssemblyReference.cache
+D:\CordingC#\ConsoleSample\ConsoleSample\obj\Debug\ConsoleSample.csproj.CoreCompileInputs.cache
+D:\CordingC#\ConsoleSample\ConsoleSample\obj\Debug\ConsoleSample.exe
+D:\CordingC#\ConsoleSample\ConsoleSample\obj\Debug\ConsoleSample.pdb

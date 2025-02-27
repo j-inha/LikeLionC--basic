@@ -1,0 +1,7 @@
+D:\CordingC#\LikeLion\0227_Report\0227_Report\bin\Debug\0227_Report.exe.config
+D:\CordingC#\LikeLion\0227_Report\0227_Report\bin\Debug\0227_Report.exe
+D:\CordingC#\LikeLion\0227_Report\0227_Report\bin\Debug\0227_Report.pdb
+D:\CordingC#\LikeLion\0227_Report\0227_Report\obj\Debug\0227_Report.csproj.AssemblyReference.cache
+D:\CordingC#\LikeLion\0227_Report\0227_Report\obj\Debug\0227_Report.csproj.CoreCompileInputs.cache
+D:\CordingC#\LikeLion\0227_Report\0227_Report\obj\Debug\0227_Report.exe
+D:\CordingC#\LikeLion\0227_Report\0227_Report\obj\Debug\0227_Report.pdb

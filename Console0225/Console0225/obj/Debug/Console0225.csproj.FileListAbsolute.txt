@@ -1,0 +1,7 @@
+D:\CordingC#\LikeLion\Console0225\Console0225\bin\Debug\Console0225.exe.config
+D:\CordingC#\LikeLion\Console0225\Console0225\bin\Debug\Console0225.exe
+D:\CordingC#\LikeLion\Console0225\Console0225\bin\Debug\Console0225.pdb
+D:\CordingC#\LikeLion\Console0225\Console0225\obj\Debug\Console0225.csproj.AssemblyReference.cache
+D:\CordingC#\LikeLion\Console0225\Console0225\obj\Debug\Console0225.csproj.CoreCompileInputs.cache
+D:\CordingC#\LikeLion\Console0225\Console0225\obj\Debug\Console0225.exe
+D:\CordingC#\LikeLion\Console0225\Console0225\obj\Debug\Console0225.pdb
