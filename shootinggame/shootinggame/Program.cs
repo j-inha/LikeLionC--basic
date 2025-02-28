@@ -1,103 +1,219 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
-namespace shootinggame
+namespace ShootingGame
 {
-    internal class Program
+    public class Bullet
     {
-        struct PlayerPosition
+        public int X { get; set; }
+        public int Y { get; set; }
+        public bool IsFired { get; set; } = false;
+    }
+
+    public class Player
+    {
+        [DllImport("msvcrt.dll")]
+        static extern int _getch();
+
+        public int X { get; private set; }
+        public int Y { get; private set; }
+        public List<Bullet> Bullets { get; } = new List<Bullet>();
+        public int Score { get; private set; } = 100;
+        public Item Item { get; } = new Item();
+        public int ItemCount { get; private set; } = 0;
+
+        public Player()
         {
-            public int x;
-            public int y;
-            public PlayerPosition(int Playerx, int Playery)
+            X = 0;
+            Y = 12;
+            for (int i = 0; i < 20; i++) Bullets.Add(new Bullet());
+        }
+
+        public void UpdateGame()
+        {
+            HandleInput();
+            Draw();
+            DrawScore();
+            UpdateItem();
+        }
+
+        public void ClashEnemyAndBullet(Enemy enemy)
+        {
+            foreach (var bullet in Bullets)
             {
-                x = Playerx; y = Playery;
-                
+                if (bullet.IsFired && bullet.Y == enemy.Y && bullet.X >= (enemy.X - 1) && bullet.X <= (enemy.X + 1))
+                {
+                    Item.IsActive = true;
+                    Item.X = enemy.X;
+                    Item.Y = enemy.Y;
+
+                    Random rand = new Random();
+                    enemy.X = 75;
+                    enemy.Y = rand.Next(2, 22);
+
+                    bullet.IsFired = false;
+                    Score += 100;
+                }
             }
         }
-        static void Main(string[] args)
+
+        private void HandleInput()
         {
-            Console.SetWindowSize(80, 25); // 콘솔 창 크기 설정 (가로 80, 세로 25)
-            Console.SetBufferSize(80, 25); // 버퍼 크기도 동일하게 설정 (스크롤 방지)
-            #region  방향키
-            //while (true)
-            //{
-            //    Console.Clear();
-            //    Console.SetCursorPosition(x, y);
-            //    Console.Write("x");
-            //    keyinfo = Console.ReadKey(true);
+            if (!Console.KeyAvailable) return;
+            int key = _getch();
 
-            //    //방향키 입력에 따른 좌표 변경
-            //switch (keyinfo.Key)
-            //{
-            //    case ConsoleKey.UpArrow: if (y > 0) y--; break;
-            //    case ConsoleKey.DownArrow: if (y < Console.WindowHeight - 1) y++; break;
-            //    case ConsoleKey.LeftArrow: if (x > 0) x--; break;
-            //    case ConsoleKey.RightArrow: if (x < Console.WindowWidth - 1) x++; break;
-            //    case ConsoleKey.Spacebar: Console.Write("미사일키"); break;
-            //    case ConsoleKey.Escape: return;
-            //}
+            switch (key)
+            {
+                case 72: Y = Math.Max(1, Y - 1); break;
+                case 75: X = Math.Max(0, X - 1); break;
+                case 77: X = Math.Min(75, X + 1); break;
+                case 80: Y = Math.Min(21, Y + 1); break;
+                case 32: FireBullet(); break;
+            }
+        }
 
+        private void FireBullet()
+        {
+            Bullets.Add(new Bullet { X = X + 5, Y = Y + 1, IsFired = true });
+            if (ItemCount >= 1) Bullets.Add(new Bullet { X = X + 5, Y = Y, IsFired = true });
+            if (ItemCount >= 2) Bullets.Add(new Bullet { X = X + 5, Y = Y + 2, IsFired = true });
+        }
 
-            //}
-            #endregion
+        public void DrawBullets()
+        {
+            string bulletSymbol = "->";
+            foreach (var bullet in Bullets)
+            {
+                if (bullet.IsFired)
+                {
+                    Console.SetCursorPosition(bullet.X + 5, bullet.Y + 1);
+                    Console.Write(bulletSymbol);
+                    bullet.X++;
+                    if (bullet.X > 78) bullet.IsFired = false;
+                }
+            }
+        }
+
+        private void Draw()
+        {
+            string[] playerShape =
+            {
+                " ∧__∧",
+                 "( ｀Д´ ）",
+                 "(っ▄︻▇〓┳═☆",
+                 "/　　 )",
+                 "( /￣∪" 
+            };
+            for (int i = 0; i < playerShape.Length; i++)
+            {
+                Console.SetCursorPosition(X, Y + i);
+                Console.WriteLine(playerShape[i]);
+            }
+        }
+
+        private void DrawScore()
+        {
+            Console.SetCursorPosition(63, 0);
+            Console.Write("┏━━━━━━━━━━━━━━┓");
+            Console.SetCursorPosition(63, 1);
+            Console.Write("┃ Score : " + Score + "  ┃");
+            Console.SetCursorPosition(63, 2);
+            Console.Write("┗━━━━━━━━━━━━━━┛");
+        }
+
+        private void UpdateItem()
+        {
+            if (Item.IsActive)
+            {
+                Item.Move();
+                Item.Draw();
+                CheckItemCollision();
+            }
+        }
+
+        private void CheckItemCollision()
+        {
+            if (Y + 1 == Item.Y && X >= Item.X - 2 && X <= Item.X + 2)
+            {
+                Item.IsActive = false;
+                ItemCount = Math.Min(3, ItemCount + 1);
+            }
+        }
+    }
+
+    public class Enemy
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+        private Random _rand = new Random();
+
+        public Enemy()
+        {
+            X = 77;
+            Y = 12;
+        }
+
+        public void Move()
+        {
+            X--;
+            if (X < 2)
+            {
+                X = 75;
+                Y = _rand.Next(2, 22);
+            }
+        }
+
+        public void Draw()
+        {
+            Console.SetCursorPosition(X, Y);
+            Console.Write("୧༼◔益◔୧ ༽");
+        }
+    }
+
+    public class Item
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+        public bool IsActive { get; set; } = false;
+
+        public void Draw()
+        {
+            Console.SetCursorPosition(X, Y);
+            Console.Write("item★");
+        }
+
+        public void Move()
+        {
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            string[] player = new string[]
-            {
-                "∧__∧",
-                "( ｀Д´ ）",
-                "(っ▄︻▇〓┳═☆",
-                "/　　 )",
-                "( /￣∪",
-
-            };
-            PlayerPosition Position;
-            Position.x = 0;
-            Position.y = 12;
-            ConsoleKeyInfo keyinfo;
             Console.CursorVisible = false;
+            Console.SetWindowSize(100, 25);
+            Console.SetBufferSize(100, 25);
 
-            //시간 1초 루프
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
-            long prevSecond = stopwatch.ElapsedMilliseconds; // 1 /1000    1000일때 1초
+            Player player = new Player();
+            Enemy enemy = new Enemy();
+            int lastUpdateTime = Environment.TickCount;
+
             while (true)
             {
-                long currentSecond = stopwatch.ElapsedMilliseconds; //현재시간 가져오기
-
-
-                if (currentSecond - prevSecond >= 100)
+                if (lastUpdateTime + 50 < Environment.TickCount)
                 {
-
+                    lastUpdateTime = Environment.TickCount;
                     Console.Clear();
-                    if (Console.KeyAvailable) //키가 눌렸을때 true
-                    {
-                        keyinfo = Console.ReadKey(true);
-                        switch (keyinfo.Key)
-                        {
-                            case ConsoleKey.UpArrow: if (Position.y > 0) Position.y--; break;
-                            case ConsoleKey.DownArrow: if (Position.y < Console.WindowHeight - 1) Position.y++; break;
-                            case ConsoleKey.LeftArrow: if (Position.x > 0) Position.x--; break;
-                            case ConsoleKey.RightArrow: if (Position.x < Console.WindowWidth - 1) Position.x++; break;
-                            case ConsoleKey.Spacebar: Console.Write("미사일키"); break;
-                            case ConsoleKey.Escape: return;
-                        }
-                    }
 
-                    for (int i = 0; i < player.Length; i++)
-                    {
-
-                        Console.SetCursorPosition(Position.x, Position.y + i);
-                        Console.WriteLine(player[i]);
-                    }
-
-                    prevSecond = currentSecond;//이전 시간 업데이트
+                    player.UpdateGame();
+                    player.DrawBullets();
+                    enemy.Move();
+                    enemy.Draw();
+                    player.ClashEnemyAndBullet(enemy);
                 }
             }
         }
