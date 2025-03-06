@@ -1,0 +1,7 @@
+D:\CordingC#\LikeLion\classExample\classExample\bin\Debug\classExample.exe.config
+D:\CordingC#\LikeLion\classExample\classExample\bin\Debug\classExample.exe
+D:\CordingC#\LikeLion\classExample\classExample\bin\Debug\classExample.pdb
+D:\CordingC#\LikeLion\classExample\classExample\obj\Debug\classExample.csproj.AssemblyReference.cache
+D:\CordingC#\LikeLion\classExample\classExample\obj\Debug\classExample.csproj.CoreCompileInputs.cache
+D:\CordingC#\LikeLion\classExample\classExample\obj\Debug\classExample.exe
+D:\CordingC#\LikeLion\classExample\classExample\obj\Debug\classExample.pdb

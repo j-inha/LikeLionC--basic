@@ -1,0 +1,7 @@
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\bin\Debug\NightStudy1.exe.config
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\bin\Debug\NightStudy1.exe
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\bin\Debug\NightStudy1.pdb
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\obj\Debug\NightStudy1.csproj.AssemblyReference.cache
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\obj\Debug\NightStudy1.csproj.CoreCompileInputs.cache
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\obj\Debug\NightStudy1.exe
+D:\CordingC#\LikeLion\NightStudy1\NightStudy1\obj\Debug\NightStudy1.pdb
