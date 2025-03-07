@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CordingC#\\LikeLion\\CookieRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|d:\\cordingc#\\likelion\\cookierpg\\cookierpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EE3E8F-30FC-4DDA-8EE2-0D7392F9634E}|CookieRPG\\CookieRPG.csproj|solutionrelative:cookierpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Monster.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\Monster.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Monster.cs",
+              "RelativeToolTip": "CookieRPG\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:26:39.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Field.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Field.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\Field.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Field.cs",
+              "RelativeToolTip": "CookieRPG\\Field.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAvwF0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:26:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainGame.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\MainGame.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\MainGame.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\MainGame.cs",
+              "RelativeToolTip": "CookieRPG\\MainGame.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:26:18.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Color.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Color.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\Color.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Color.cs",
+              "RelativeToolTip": "CookieRPG\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:19:15.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INFO.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\INFO.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\INFO.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\INFO.cs",
+              "RelativeToolTip": "CookieRPG\\INFO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:07:41.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Player.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\Player.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Player.cs",
+              "RelativeToolTip": "CookieRPG\\Player.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwDcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:02:53.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Program.cs",
+              "RelativeDocumentMoniker": "CookieRPG\\Program.cs",
+              "ToolTip": "D:\\CordingC#\\LikeLion\\CookieRPG\\CookieRPG\\Program.cs",
+              "RelativeToolTip": "CookieRPG\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T05:02:37.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

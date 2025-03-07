@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\CordingC#\\LikeLion\\study38\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|D:\\CordingC#\\LikeLion\\study38\\study38\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|D:\\CordingC#\\LikeLion\\study38\\study38\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|D:\\CordingC#\\LikeLion\\study38\\study38\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|D:\\CordingC#\\LikeLion\\study38\\study38\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|d:\\cordingc#\\likelion\\study38\\study38\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|d:\\cordingc#\\likelion\\study38\\study38\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|d:\\cordingc#\\likelion\\study38\\study38\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|d:\\cordingc#\\likelion\\study38\\study38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|D:\\CordingC#\\LikeLion\\study38\\study38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|d:\\cordingc#\\likelion\\study38\\study38\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|d:\\cordingc#\\likelion\\study38\\study38\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1246B4C3-2A07-46F4-9387-334B516F18CA}|study38\\study38.csproj|solutionrelative:study38\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Field.cs",
               "DocumentMoniker": "D:\\CordingC#\\LikeLion\\study38\\study38\\Field.cs",
               "RelativeDocumentMoniker": "study38\\Field.cs",
               "ToolTip": "D:\\CordingC#\\LikeLion\\study38\\study38\\Field.cs",
               "RelativeToolTip": "study38\\Field.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwDkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T08:57:30.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Monster.cs",
               "DocumentMoniker": "D:\\CordingC#\\LikeLion\\study38\\study38\\Monster.cs",
               "RelativeDocumentMoniker": "study38\\Monster.cs",
@@ -68,33 +68,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainGame.cs",
               "DocumentMoniker": "D:\\CordingC#\\LikeLion\\study38\\study38\\MainGame.cs",
               "RelativeDocumentMoniker": "study38\\MainGame.cs",
               "ToolTip": "D:\\CordingC#\\LikeLion\\study38\\study38\\MainGame.cs",
               "RelativeToolTip": "study38\\MainGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T08:54:46.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\CordingC#\\LikeLion\\study38\\study38\\Player.cs",
               "RelativeDocumentMoniker": "study38\\Player.cs",
               "ToolTip": "D:\\CordingC#\\LikeLion\\study38\\study38\\Player.cs",
               "RelativeToolTip": "study38\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T08:54:13.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "INFO.cs",
               "DocumentMoniker": "D:\\CordingC#\\LikeLion\\study38\\study38\\INFO.cs",
               "RelativeDocumentMoniker": "study38\\INFO.cs",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CordingC#\\LikeLion\\study38\\study38\\Program.cs",
               "RelativeDocumentMoniker": "study38\\Program.cs",
               "ToolTip": "D:\\CordingC#\\LikeLion\\study38\\study38\\Program.cs",
               "RelativeToolTip": "study38\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T01:07:38.106Z",
               "EditorCaption": ""

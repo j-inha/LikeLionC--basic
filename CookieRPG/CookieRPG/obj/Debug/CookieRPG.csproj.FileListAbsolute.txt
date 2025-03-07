@@ -1,0 +1,7 @@
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\bin\Debug\CookieRPG.exe.config
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\bin\Debug\CookieRPG.exe
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\bin\Debug\CookieRPG.pdb
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\obj\Debug\CookieRPG.csproj.AssemblyReference.cache
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\obj\Debug\CookieRPG.csproj.CoreCompileInputs.cache
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\obj\Debug\CookieRPG.exe
+D:\CordingC#\LikeLion\CookieRPG\CookieRPG\obj\Debug\CookieRPG.pdb
